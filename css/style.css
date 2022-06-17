@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 550px;
+    justify-content: space-between;
+}
+
+#titleDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;    
+}
+
+#title {
+    font-size: 30pt;
+    margin-left: 50px;
+}
+
+#outDiv {
+    width: 100%;
+}
+
+#term_window {
+    width: 100%;
+    height: 400px;
+}
+
+#inDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#term_input {
+    width: 85%;
+    height: 20px;
+}
+
+#setDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+#port_info {
+    width: 500px;
+}

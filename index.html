@@ -1,0 +1,41 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+    <div id="titleDiv">
+        <img src="img/SparkX-Skinny.png" width="220px">
+        <span id="title">Web Serial API Demo</span>
+    </div>
+    <div id="outDiv">
+        <textarea id="term_window" readonly>Hellorld!</textarea>
+    </div>
+    <div id="inDiv">
+        <textarea id="term_input"></textarea>
+        <button id="send" disabled>Send</button>
+        <button id="clear" disabled>Clear</button>
+    </div>
+    <div id="setDiv">
+        <button id="openclose_port">Open</button>
+        <div>
+            <span>Baud Rate: </span>
+            <select id="baud_rate">
+                <option value="9600">9600</option>
+                <option value="19200">19200</option>
+                <option value="38400">38400</option>
+                <option value="57600">57600</option>
+                <option value="115200">115200</option>
+            </select><button id="change" disabled>Change</button>
+        </div>
+        <span id="port_info">Disconnected</span>
+    </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
