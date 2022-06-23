@@ -1,6 +1,6 @@
 # WebTerminalDemo
 
-This is a simple demo of the [Web Serial API](https://web.dev/serial/) which implements a bare-bones USB serial terminal.
+This is a simple demo of the [Web Serial API](https://web.dev/serial/) which implements a bare-bones serial terminal.
 
 ![screenshot](https://github.com/sparkfunX/WebTerminalDemo/raw/main/img/scrot.png)
 
